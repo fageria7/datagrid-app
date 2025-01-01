@@ -4,6 +4,11 @@
   color: #333;
 }
 
+.datagridWrapper {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+
 .downloadSection {
   display: flex;
   align-items: center;
@@ -30,10 +35,6 @@
   cursor: not-allowed;
   box-shadow: none;
   opacity: 0.6;
-}
-
-.datagridWrapper {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .table {
